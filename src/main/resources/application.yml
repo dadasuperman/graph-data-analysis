@@ -1,0 +1,8 @@
+spring:
+  neo4j:
+    authentication:
+      url: bolt://localhost:7687
+      username: neo4j
+      password: neo4j
+    main:
+       allow-bean-definition-overriding: true
